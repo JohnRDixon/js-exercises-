@@ -1,0 +1,35 @@
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+/***** GENERIC STYLES *************/
+/**********************************/
+
+body{
+	padding-top: 40px;
+}
+
+.color{
+	background: red;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto 40px auto;
+	box-shadow: inset 0 2px 5px rgb(0, 0, 0);
+}
+
+.color.blue{
+	background: blue;
+}
+
